@@ -92,7 +92,6 @@
       ansible.builtin.systemd:
         name: nginx.service
         state: restarted
-  
   handlers:
     # Do a daemon reload
     # Find implementation in https://docs.ansible.com/ansible/latest/collections/ansible/builtin/systemd_module.html#examples

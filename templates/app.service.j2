@@ -16,4 +16,4 @@ ExecStart=java -jar "{{ app_dir }}/{{ app_file }}"
 User=nick
 Restart=always
 RestartSec=10
-Environment="{{ app_port }}"
+Environment="PORT={{ app_port }}"
